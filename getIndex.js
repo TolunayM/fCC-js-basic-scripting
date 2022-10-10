@@ -1,7 +1,6 @@
 function getIndexToIns(arr, num) {
     arr.push(num);
     arr = arr.sort((a,b) => a - b);
-    console.log(arr.indexOf(num))
     return arr.indexOf(num);
 
 }
